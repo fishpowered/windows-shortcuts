@@ -10,3 +10,19 @@ return
 #right::
     send {end}
 return
+
+#up::
+    send {PgUp}
+return
+
+#down::
+    send {PgDn}
+return
+
+#+left::
+    Send {SHIFT}+{home}
+return
+
+#+right::
+    Send {SHIFT}+{end}
+return
