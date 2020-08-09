@@ -26,3 +26,11 @@ return
 #+right::
     Send {SHIFT}+{end}
 return
+
+#+up::
+    send {SHIFT}+{PgUp}
+return
+
+#+down::
+    send {SHIFT}+{PgDn}
+return
